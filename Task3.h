@@ -14,8 +14,8 @@ struct xAlir {
 };
 void Task3() {
     deque<double> prices = {10, 20, 30};
-    for_each(prices.begin(), prices.end(), xAlir(0.2));
-    for (double p : prices) cout << p << " ";
+    for_each(prices.begin(), prices.end(), xAlir(0.5));
+    for (double p : prices) cout << p << " " ;
     cout << endl;
 };
 
