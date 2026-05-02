@@ -4,6 +4,7 @@
 #include "Task3.h"
 #include "Task4.h"
 #include "Task5.h"
+#include "Task6.h"
 
 using namespace std;
 int main (){
@@ -12,6 +13,7 @@ int main (){
     Task3();
     Task4();
     Task5();
+    Task6();
 
 
 }
